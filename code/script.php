@@ -203,6 +203,9 @@
         }
     }
 
+    //Add others to search because search is used to create the files
+    $search['outros'] = array('');
+
     //Create the json files
     createFiles();
 
